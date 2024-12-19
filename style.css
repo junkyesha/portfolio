@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('PIC/koi.png');
+    background-size: contain;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a:hover img {   
+    transform: scale(1.2); 
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.eyenav {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+    animation: animkaR 1s ease-in-out;
+}
+
+@keyframes animkaR {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes animkaL {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	} 
+    
+}
+
+.aside2 {
+    animation: animkaR 1s ease-in-out;
+    display: flex;
+    background-color:#671e1e;
+    margin-top: 20px;
+    margin-left: 520px;
+    padding: 15px;
+    flex-direction: column;
+    z-index: 1;
+    width: 650px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.aside3 {
+    animation: animkaL 1s ease-in-out;
+    display: flex;
+    background-color: #671e1e;
+    margin-top: 20px;
+    margin-left: 520px;
+    padding: 15px;
+    flex-direction: column;
+    z-index: 1;
+    width: 650px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.aside4 {
+    animation: animkaR 1s ease-in-out;
+    display: flex;
+    background-color: #671e1e;
+    margin-top: 20px;
+    margin-left: 520px;
+    padding: 15px;
+    flex-direction: column;
+    z-index: 1;
+    width: 650px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.aside5 {
+    animation: animkaL 1s ease-in-out;
+    display: flex;
+    background-color: #671e1e;
+    margin-top: 20px;
+    margin-left: 520px;
+    padding: 15px;
+    flex-direction: column;
+    z-index: 1;
+    width: 650px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+#about {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn ease-in 1; 
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    font-size: 25px;
+}
+#portfolio {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn ease-in 1; 
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    font-size: 25px;
+}
+
+#contact {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn ease-in 1; 
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    font-size: 25px;
+}
+#input {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn ease-in 1; 
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h1 {
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+@keyframes spin {
+    100% {
+      transform:rotate(360deg);
+    }
+}
+.recordPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.vinyl {
+    height: 150px;
+    margin-left: 55px;
+    padding: 10px;
+    animation: spin 1.88s linear infinite;
+    position: absolute;
+}
+.vinylCover {
+    height: 150px;
+    position: relative;
+    z-index: 1;
+    margin-right: 55px;
+}
+#text-container {
+    width: 80%;
+    margin: 0 auto; 
+}
+  
+#text-container div {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+  
+#text-container div.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.project img {
+    width: 250px;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 350px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #5c0c0c;
+    border-radius: 180px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #111;
+    border-radius: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#contact-form button {
+    background-color: #111;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.avatar img {
+    padding-top: 20px;
+}

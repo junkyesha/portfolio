@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUSTCHUNSKY!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Обо мне</a>
+            <a href="#portfolio">Мои работы</a>
+            <a href="#contact">Контакты</a>
+            <a href="#input">Обратная связь</a>
+          </div>
+          <div class="eyenav">
+          <span onclick="openNav()"><img src="PIC/viewnav.png" width="70px"></span>
+            <img src="PIC/lustchunsky.png" width="300px">
+        </div>
+
+    </header>
+    
+    <main>
+        
+        <div id="main">
+        <section id="hello">
+            <h1>Добро пожаловать на мой сайт-портфолио</h1>
+        </section>
+    <aside  class="aside2">
+        <section id="about">
+                <img src="PIC/avatar_sparkle.png" width="200px">
+            <h2>Обо мне</h2>
+            <p>Меня зовут Куршева Виктория (Lustchunsky)</p>
+            <p>Я занимаюсь версткой, работаю с JavaScript, HTML, CSS, Photoshop, Krita.</p>
+        </section>
+    </aside>
+    <aside  class="aside3">
+        <section id="portfolio">
+            <h2>Мои работы</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Пчелы</h3>
+                    <a href="bees/">
+                        <img src="PIC/eidolon1.png" alt="Проект 1">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>ЖК Мелодия</h3>
+                    <a href="melody/">
+                    <img src="PIC/eidolon2.png" alt="Проект 2">
+                </a>
+                </div>
+                <div class="project">
+                    <h3>Сайт-визитка</h3>
+                    <a href="visitka/content/">
+                    <img src="PIC/eidolon3.png" alt="Проект 2">
+                </a>
+                </div>
+        </section>
+    </aside>
+    <aside  class="aside4">
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: lustchunsky@gmail.com</p>
+            <p>Телефон: +7 (800) 555-35-35</p>
+            <p>Telegram: @lustchunsky</p>
+            <p></p>
+            <div class="recordPlayer">
+                <img class="vinyl" src="PIC/vinyl-black.png"/>
+                <img class="vinylCover" src="PIC/200x200.jpg"/>
+              </div>
+            </aside>
+        </section>
+        <aside class="aside5">
+        <section id="input">
+            <h2>Связь со мной</h2>
+            <form id="contact-form" action="" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Сообщение..."></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </aside>
+        </section>
+    <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>&copy; LONG LIVE THE LUSTCHUNSKY!!! МИДиС</p>
+    </footer>
+</body>
+</html>
