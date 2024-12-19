@@ -120,51 +120,7 @@ header {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.aside3 {
-    animation: animkaL 1s ease-in-out;
-    display: flex;
-    background-color: #671e1e;
-    margin-top: 20px;
-    margin-left: 520px;
-    padding: 15px;
-    flex-direction: column;
-    z-index: 1;
-    width: 650px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 9px;
-    border-top-right-radius: 9px;
-}
-.aside4 {
-    animation: animkaR 1s ease-in-out;
-    display: flex;
-    background-color: #671e1e;
-    margin-top: 20px;
-    margin-left: 520px;
-    padding: 15px;
-    flex-direction: column;
-    z-index: 1;
-    width: 650px;
-    border-top-left-radius: 9px;
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-.aside5 {
-    animation: animkaL 1s ease-in-out;
-    display: flex;
-    background-color: #671e1e;
-    margin-top: 20px;
-    margin-left: 520px;
-    padding: 15px;
-    flex-direction: column;
-    z-index: 1;
-    width: 650px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 9px;
-    border-top-right-radius: 9px;
-}
+
 #about {
     color: white;
     padding-bottom: 20px;
